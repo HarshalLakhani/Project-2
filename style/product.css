@@ -1,0 +1,77 @@
+.mt-50{
+    margin-top: 50px;
+}
+
+#parent-box{
+    display: flex;
+}
+#box1{
+    border: 1px solid #bc5959;
+    height: 100vh;
+    width: 20%;
+}
+#box2{
+    width: 80%;
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   height: 100vh;
+   overflow: scroll;
+   gap: 15px;
+   padding-left: 20px;
+   
+}
+#box2 div{
+    border: 2px solid #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+#box2 div:hover{
+    box-shadow:  0 16px 32px 0 rgba(7, 28, 31, 0.1);
+}
+#box2 div img{
+    height: 170px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+#box2 div h3{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #071c1f;
+}
+#box2 div h4{
+    font-size: 19px;
+    color: #666666;
+    padding-top: 13px;
+    font-weight:500;
+}
+#box2 div p{
+  padding-top: 9px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #bc5959;
+}
+#box2 div span{
+    padding-top: 7px !important;
+    font-size: 18px;
+    display: block;
+}
+#box2 div button{
+    margin-top: 13px;
+    margin-left: 10px;
+    padding: 13px 35px;
+    font-size: 17px;
+    background-color: #bc5959;
+    color: white;
+    border: none;
+}
+#box1 button{
+    display: block;
+    margin:35px auto;
+    padding: 17px 35px;
+    font-size: 17px;
+    background-color: #bc5959;
+    color: white;
+    border: none;
+}

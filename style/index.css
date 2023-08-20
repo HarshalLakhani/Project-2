@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Container styles */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Utility classes */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* List styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Header styles */
+header {
+    padding: 20px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+    margin-left: auto; /* Pushes the navigation to the right */
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li:hover {
+    background-color: transparent; /* No background color on hover */
+}
